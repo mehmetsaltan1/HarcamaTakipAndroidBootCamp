@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/splashScreenFragment">
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.mehmetsaltan.harcamatakipbymehmetsaltan.onboardekrani.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_anaHarcamaEkrani"
+            app:destination="@id/anaHarcamaEkrani"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_isimCinsiyetDegistir2"
+            app:destination="@id/isimCinsiyetDegistir"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.mehmetsaltan.harcamatakipbymehmetsaltan.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_anaHarcamaEkrani"
+            app:destination="@id/anaHarcamaEkrani"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_isimCinsiyetDegistir"
+            app:destination="@id/isimCinsiyetDegistir"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/anaHarcamaEkrani"
+        android:name="com.mehmetsaltan.harcamatakipbymehmetsaltan.AnaHarcamaEkrani"
+        android:label="fragment_ana_harcama_ekrani"
+        tools:layout="@layout/fragment_ana_harcama_ekrani" >
+        <action
+            android:id="@+id/action_anaHarcamaEkrani_to_harcamaEkle"
+            app:destination="@id/harcamaEkle" />
+        <action
+            android:id="@+id/action_anaHarcamaEkrani_to_isimCinsiyetDegistir"
+            app:destination="@id/isimCinsiyetDegistir" />
+        <action
+            android:id="@+id/action_anaHarcamaEkrani_to_harcamaDetay"
+            app:destination="@id/harcamaDetay"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_anaHarcamaEkrani_to_isimCinsiyetDegistir2"
+            app:destination="@id/isimCinsiyetDegistir"
+            app:popUpTo="@id/anaHarcamaEkrani"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/harcamaEkle"
+        android:name="com.mehmetsaltan.harcamatakipbymehmetsaltan.HarcamaEkle"
+        android:label="fragment_harcama_ekle"
+        tools:layout="@layout/fragment_harcama_ekle" >
+        <action
+            android:id="@+id/action_harcamaEkle_to_anaHarcamaEkrani"
+            app:destination="@id/anaHarcamaEkrani" />
+    </fragment>
+    <fragment
+        android:id="@+id/isimCinsiyetDegistir"
+        android:name="com.mehmetsaltan.harcamatakipbymehmetsaltan.IsimCinsiyetDegistir"
+        android:label="fragment_isim_cinsiyet_degistir"
+        tools:layout="@layout/fragment_isim_cinsiyet_degistir" >
+        <action
+            android:id="@+id/action_isimCinsiyetDegistir_to_anaHarcamaEkrani"
+            app:destination="@id/anaHarcamaEkrani"
+            app:popUpTo="@id/isimCinsiyetDegistir"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/harcamaDetay"
+        android:name="com.mehmetsaltan.harcamatakipbymehmetsaltan.HarcamaDetay"
+        android:label="fragment_harcama_detay"
+        tools:layout="@layout/fragment_harcama_detay" >
+        <action
+            android:id="@+id/action_harcamaDetay_to_anaHarcamaEkrani"
+            app:destination="@id/anaHarcamaEkrani"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="gelenHarcama"
+            app:argType="com.mehmetsaltan.harcamatakipbymehmetsaltan.Harcama" />
+    </fragment>
+</navigation>

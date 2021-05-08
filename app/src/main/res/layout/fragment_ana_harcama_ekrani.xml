@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnaHarcamaEkrani">
+
+    <Button
+        android:id="@+id/btn_Ekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:background="@drawable/ekle_kaydet_btn"
+        android:drawableStart="@drawable/ekle_btn_icon"
+        android:text="Ekle"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/giris_Card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/card_gradient"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_gradient"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/txt_isim_cinsiyet"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.8"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24dp"
+                    tools:text="deneme yazısı" />
+
+
+                <TextView
+                    android:id="@+id/txt_toplamHarcama"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.2"
+                    android:text="Harcamanız \n TL"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/btn_TL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/gec_ve_paralar_btn"
+                android:text="TL"
+                android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_Euro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/gec_ve_paralar_btn"
+            android:text="EURO" />
+
+        <Button
+            android:id="@+id/btn_Sterlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/gec_ve_paralar_btn"
+            android:text="STERLIN" />
+
+        <Button
+            android:id="@+id/btn_Dolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gec_ve_paralar_btn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="DOLAR" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical"
+
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+</FrameLayout>
