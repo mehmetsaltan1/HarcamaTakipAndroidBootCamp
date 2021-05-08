@@ -8,5 +8,5 @@ Harcamalarınızı kayıt edebileceğiniz yardımcı android uygulaması. Harcam
 ## API KEY -> 8e3eac073e09cb20294e
 ---
 ---
-
-![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz] (https://i.resmim.net/QisSM.png)
+## Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz
+![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz](https://i.resmim.net/QisSM.png)
