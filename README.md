@@ -3,6 +3,8 @@ Harcama takip uygulamamız gündelik hayatta yaptığınız bütün harcamaları
 
 ## Uygulamada Kullanılan Kütüphaneler
 ### Api ile Kurların çekilmesi için = Retrofit2
+### Harcamaların kayıt altında tutulması için veri tabanı=Room
+### Harcamaların türüne göre belirlenen iconun veri tabanına kayıt edilmesi için = coil:1.0.0
 ### Fragmentlar arası geçişi yönetmek için = Navigation Graph
 ### Kur değerlerinin çekildi site = (https://free.currencyconverterapi.com)
 ## API KEY -> 8e3eac073e09cb20294e
