@@ -9,9 +9,5 @@ Harcamalarınızı kayıt edebileceğiniz yardımcı android uygulaması. Harcam
 ---
 ---
 
-![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz]
-(https://i.resmim.net/QisSM.png)
-/*![Kullanıcı ismi kayıt sayfası](https://raw.githubusercontent.com/caner07/HarcamaTakip/master/screenshots/Screenshot_1620488502.png)
-![Yeni Harcama Ekleme Sayfası](https://raw.githubusercontent.com/caner07/HarcamaTakip/master/screenshots/Screenshot_1620488537.png)
-![Harcama Silme Sayfası](https://raw.githubusercontent.com/caner07/HarcamaTakip/master/screenshots/Screenshot_1620491892.png)
-*/
+![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz](https://i.resmim.net/QisSM.png)
+
