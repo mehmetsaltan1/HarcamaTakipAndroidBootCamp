@@ -9,5 +9,4 @@ Harcamalarınızı kayıt edebileceğiniz yardımcı android uygulaması. Harcam
 ---
 ---
 
-![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz](https://i.resmim.net/QisSM.png)
-
+![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz] (https://i.resmim.net/QisSM.png)
