@@ -1,5 +1,5 @@
 # HarcamaTakip
-Harcamalarınızı kayıt edebileceğiniz yardımcı android uygulaması. Harcamanızı Kira,Elektrik veya Diğer olarak 4 kur biriminden dilediğiniz türde kayıt edin. Uygulama harcamanızı otomatik olarak diğer kur birimlerine de dönüştürür ve kaydeder. Anasayfada harcamalarınızı 4 kur biriminde de takip edebilirsiniz. Daha sade görüntü olması için çevrimi yapılan kurların virgülden sonrasını yazmıyor. Ekran görüntülerini sayfanın sonunda bulabilirsiniz. Uygulamanın dark mode uyumluluğu bulunmuyor  bu yüzden light mode'da kullanmanız daha sağlıklı olacaktır :)
+Harcama takip uygulamamız gündelik hayatta yaptığınız bütün harcamalarınızı bir mobil uygulamada kayıt altında tutmanıza yarayan mobil app dir. Harcamalarınız bizzat kendi telefonunuzun veri tabanında kayıt altında tutulduğu için harcamalarınız biz dahil bir başkasıyla paylaşılmaz. Keyifli kullanımlar :)
 
 ## Uygulamada Kullanılan Kütüphaneler
 ### Api ile Kurların çekilmesi için = Retrofit2
@@ -8,5 +8,13 @@ Harcamalarınızı kayıt edebileceğiniz yardımcı android uygulaması. Harcam
 ## API KEY -> 8e3eac073e09cb20294e
 ---
 ---
-## Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz
+## Harcamaların görüntülendiği ana sayfa burada harcamalarınızı istediğinz kur türünden görüntüleyebilirsiniz
 ![Harcamalarınızı buradan takip edebilir dilediğiniz para birimi türünden görebilirsiniz](https://i.resmim.net/QisSM.png)
+
+## İsim Ve cinsiyet sayfasından isim ve cinsiyetinizi girdi olarak girebilirsiniz 
+![Kullanıcı ismi kayıt sayfası](https://i.resmim.net/QihST.png)
+## Harcama ekle sayfasından yeni bir harcama ekleyebilirsiniz 
+![Yeni Harcama Ekleme Sayfası](https://i.resmim.net/Qia5r.png)
+## Harcama detay sayfasında harcamalarınızı detaylı bir şekilde görüntüleyebilir ayrıca sile de bilirsiniz :)
+![Harcama Silme Sayfası](https://i.resmim.net/Qi7Cn.png)
+
